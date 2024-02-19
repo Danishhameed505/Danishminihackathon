@@ -37,8 +37,26 @@ body {
     gap: 20px;
     font-family: Roboto-bold;
 }
+.nav-02 .consultation h6{
+    background-color: rgb(238, 84, 110);
+
+}
 .footer img{
     height: 100px;
     margin-top: 500px;
 
+}
+.footer-1{
+    margin-top: 100px;
+
+}
+.card{
+    margin-right:700px;
+}
+
+.footer-bottom{
+    margin-top: 500px;
+}
+.footer-bottom li {
+    text-decoration: none;
 }
