@@ -1,0 +1,44 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color:#c4bfbf;
+}
+
+:root{
+    --primary:#6c757d;
+    --secondary:#343a40;
+}
+@font-face{
+    font-family: Roboto-Medium;
+    src:url(./assets/Fonts/Roboto/Roboto-Medium.ttf) ;
+
+    font-family: Roboto-bold;
+    src: url(./assets/Fonts/Roboto/Roboto-Bold.ttf);
+
+    font-family:Roboto-Light ;
+    src: url(./assets/Fonts/Roboto/Roboto-Light.ttf);
+}
+.nav-1{
+    margin-left: 100px;
+    font-family:Roboto-Light ;
+    text-decoration: none;
+}
+.nav-1 .phone a {
+    text-decoration: none;
+    font-family: Roboto-Medium;
+}
+.nav-02{
+    background-color: #f8f9fa;
+    height: 70px;
+    width: 150%;
+    margin-left: 20px;
+    gap: 20px;
+    font-family: Roboto-bold;
+}
+.footer img{
+    height: 100px;
+    margin-top: 500px;
+
+}
